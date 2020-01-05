@@ -13,7 +13,23 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		
-		map = new String[3^n][3^n];
+		map = new String[n+1][n+1];
+		
+			
+		
+	}
+	
+	public void func(int x, int y, int n) {
+		n = n/3;
+		
+		for(int i = 1; i <= 3; i++) { //각 1~3까지 들어가도록 .
+			for(int j = 1; j <= 3; j++) {
+				if(n != 1)func(i,j,n);
+			}
+		}
+		
+		
+		if(n == 1) return;
 		
 		
 		
