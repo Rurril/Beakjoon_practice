@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-public class Main {
+public class Main { //1260 번 문제 bfs/dfs.
 	
 	static int node;
 	static int edge;
