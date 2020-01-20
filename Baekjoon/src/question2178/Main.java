@@ -41,16 +41,6 @@ public class Main {
 		
 		check[x][y] = true; // 왔다갔다는 것을 의미.
 		
-//		System.out.println(x + " " + y + " " + depth);
-		
-//		if(x==2&&y==1) {
-//			for(int i=0; i<n;i++) {
-//				for(int j=0; j<m;j++) {
-//					System.out.print(check[i][j]); 
-//				}
-//				System.out.println();
-//			}
-//		}
 		
 		for(int i=0; i<4;i++) {
 			int x2 = x;
