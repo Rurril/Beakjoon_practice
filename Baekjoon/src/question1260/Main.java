@@ -17,7 +17,7 @@ public class Main { //1260 번 문제 bfs/dfs.
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		// DFS방식으로 수행하고나서 BFS방식으로 수행하는 것을 출력하면 됨.
-				
+		
 		String[] temp = br.readLine().split(" ");
 		node = Integer.parseInt(temp[0]);
 		edge = Integer.parseInt(temp[1]);
@@ -43,7 +43,7 @@ public class Main { //1260 번 문제 bfs/dfs.
 //			for(int j=1;j<=node;j++) {
 //				System.out.print(map2[i][j]);
 //			}
-//			System.out.println();
+//			System.out.println();			
 //			
 //		}
 		
